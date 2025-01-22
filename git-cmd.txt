@@ -1,0 +1,82 @@
+git init
+# to initial the folder.
+
+ls -l .git/
+# to check contant made by git 
+
+git add <filename>
+#to make the changes
+
+git status
+# to get status of git folder
+
+git commit
+#to make the changes
+
+git config --global user.email "you@example.com"
+#to config repo to all the files in the folder
+
+git config --global user.name "Your Name"
+#to config repo to all the files in the folder
+
+git commit -m 
+# if the file is changed and add new contant it make new snapshot of the repo
+
+git config -l
+# to check config of git repo
+
+git log
+# to check what changes are commited
+
+git log -p
+# help to figure out what contant is pached
+
+git show <commit id>
+# it help to get specifice changes in the file
+
+git log --stat
+# it help which lines are changed and how may lines added or removed
+
+git diff
+# which lines added in the file
+
+git add -p
+# to add the changes in stage of the file
+
+git rm <filename>
+# deleted the file from git repo
+
+echo .<filename> > .gitignore
+# to ignore the file in the git repo
+
+git checkout <filename>
+# help to undo files changes
+
+git reset HEAD <filename>
+# to unstage file which is not needed before commit
+
+git commit --amend
+# help to add files in a commited which we forgot but should not use this cmd in public commits or in shear repo
+
+git branch <branch-name>
+# to create new branch
+
+git checkout <branch-name>
+# to switch between branches
+
+git checkout -b <branch-name>
+# helps to create new branch anf enter into new branch
+
+git branch -d <branch-name>
+# helps to deleted the branch
+
+git merge <branch-name>
+# it helps to merge the branch
+
+git log --graph --oneline
+# show how branch tree is modify in oneline graph
+
+git merge --abort
+# to escape pached
+
+

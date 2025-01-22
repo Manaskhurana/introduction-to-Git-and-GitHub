@@ -1,0 +1,15 @@
+diff <filename> <filename>
+# to get the diffrence between two code
+
+diff -u <filename> <filename>
+# to get more details of modify code
+
+patch <filename> < <filename>
+# to copy new file content
+
+cp <filename> <filename>
+# to copy file in new file
+
+diff -u <filename> <filename> > <filename>
+# to copy files in new file and check the modify
+
